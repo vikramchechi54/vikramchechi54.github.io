@@ -963,23 +963,28 @@ section {
 
 .menu-info {
   display: flex;
-  justify-content: space-between; /* Aligns items at the start and end */
+  /* justify-content: space-between;  Aligns items at the start and end */
   align-items: center; /* Centers items vertically */
 }
 
 .menu-img {
-  max-width: 80px;
-  max-width: 80px; /* Adjust the size as needed */
-  margin-right: 10px; /* Optional: Add some space between the image and text */
-  border-radius: 100%;
+  max-width: 110px;
+  margin-right: 10px;
+  border-radius: 27%;
 }
 
 .food-name {
-  margin-right: auto; /* Pushes the name to the right */
+  /* margin-right: auto;  */
+  margin-right: 20px;
 }
 
-.food-price {
-  margin-left: auto; /* Moves the price to the rightmost */
+.menu-divider {
+  flex-grow: 1;
+  border-bottom: 1px dashed #dad8d4;
+}
+.menu-info span {
+  /* margin-left: auto;  */
+  margin-left: 10px;
 }
 
 /*--------------------------------------------------------------
